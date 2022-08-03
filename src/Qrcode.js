@@ -13,7 +13,7 @@ export default function Qrcode() {
     setdatasent({ url: e.target.value });
   };
   const handleclickgetqr = () =>{
-    if(datasent.url!=""){
+    if(datasent.url!==""){
       setResponse("http://api.qrserver.com/v1/create-qr-code/?data="+encodeURI(datasent.url)+"&size=320x320");
       setShow(true)
     }
