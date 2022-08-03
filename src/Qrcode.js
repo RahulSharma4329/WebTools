@@ -14,7 +14,7 @@ export default function Qrcode() {
   };
   const handleclickgetqr = () =>{
     if(datasent.url!==""){
-      setResponse("http://api.qrserver.com/v1/create-qr-code/?data="+encodeURI(datasent.url)+"&size=320x320");
+      setResponse("https://api.qrserver.com/v1/create-qr-code/?data="+encodeURI(datasent.url)+"&size=320x320");
       setShow(true)
     }
     else{
@@ -24,7 +24,7 @@ export default function Qrcode() {
   }
   const [response, setResponse] = useState("");
   
-  const handleDownload = () => {
+  let handleDownload = () => {
     axios.get(response, {
       responseType: 'blob',
     })
