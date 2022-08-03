@@ -1,11 +1,23 @@
 import './App.css';
 import Navbar from './Components/Navbar';
+import {Link} from "react-router-dom";
+import Home from './Home';
+import Qrcode from './Qrcode';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
+  
   return (
-    <div className="App">
-      <Navbar/>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='qrcodegenerator' element={<Qrcode/>}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 

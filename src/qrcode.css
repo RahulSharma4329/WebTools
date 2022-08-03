@@ -1,0 +1,87 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.titla{
+    font-family: 'Nunito', sans-serif;
+    margin: 5rem;
+    margin-bottom: 3rem;
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgb(21, 50, 91);
+}
+.inputarea{
+    margin: 3rem 5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.inputarea input{
+    padding: 1rem ;
+    border-radius: 2rem;
+    width: 25%;;
+    border: 2px solid rgb(196, 196, 196);
+    font-size: large;
+    color: rgb(21, 50, 91);
+    font-family: 'Nunito', sans-serif;
+    width: 35rem;
+}
+.inputarea input:focus{
+    box-shadow: 0px 0px 10px rgba(90, 90, 90, 0.307);
+    outline: none;
+}
+.inputarea img{
+    height: 2rem;
+    margin: 0 1rem;
+}
+.Submitbtn{
+    border-radius: 2rem;
+    font-size: large;
+    font-family: 'Nunito', sans-serif;
+    margin: 2rem 1rem ;
+    padding: 1rem;
+    background-color: rgb(21, 50, 91);
+    color: white;
+    font-weight: 900;
+}
+.Submitbtn:disabled{
+    background-color: grey;
+}
+.qrcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.colu1{
+    width: 60%;
+}
+.qrcodedisplay{
+    background-color: rgb(179, 220, 245);
+    padding: 2rem;
+    margin: 3rem 0;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.qrcodedisplay img{
+    height: 20rem;
+
+}
+.qrcodedisplay p{
+    color: rgb(21, 50,91); 
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    text-align: center;
+}
+.Downloadbtn{
+    border-radius: 2rem;
+    font-size: large;
+    font-family: 'Nunito', sans-serif;
+    margin: 2rem 1rem ;
+    padding: 0.5rem 1rem ;
+    background-color: rgb(21, 50, 91);
+    color: white;
+    font-weight: 900;
+}
