@@ -10,6 +10,9 @@
     font-weight: 900;
     color: rgb(21, 50, 91);
 }
+.titla p{
+    z-index: 10;
+}
 .inputarea{
     margin: 3rem 5rem;
     display: flex;
@@ -43,6 +46,7 @@
     background-color: rgb(21, 50, 91);
     color: white;
     font-weight: 900;
+    z-index: 10;
 }
 .Submitbtn:disabled{
     background-color: grey;
@@ -58,6 +62,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 10;
 }
 .qrcodedisplay{
     background-color: rgb(255, 255, 255);
@@ -273,6 +278,13 @@
     }
     .Downloadbtn{
         font-size: x-small;
+    }
+    .circles li{
+
+    bottom: -350px;
+    }
+    .area{
+        height: 20vh;
     }
   }
 
