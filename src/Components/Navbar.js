@@ -9,8 +9,8 @@ export default function Navbar() {
             <img src="/logo512.png" alt=""/>
             <p>Tiny Web Tools</p>
         </div>
-
       </div>
+
     </div>
   )
 }

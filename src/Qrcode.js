@@ -64,6 +64,20 @@ export default function Qrcode() {
             <button className="Downloadbtn" onClick={handleDownload}>Download</button>
           </div>
         </div>
+        <div className="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
       </div>
     </>
   );
