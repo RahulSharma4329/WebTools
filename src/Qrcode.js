@@ -43,6 +43,8 @@ export default function Qrcode() {
               <p>QR Code Generator</p>
             </div>
             <div className="inputarea">
+              <div className="iparea">
+
               <img src="/webicon.png" alt="" />
               <input
                 type="text"
@@ -51,7 +53,8 @@ export default function Qrcode() {
                 placeholder="Enter the url to be encoded"
                 value={datasent.url}
                 onChange={handleOnChange}
-              />
+                />
+              </div>
               <button className="Submitbtn" onClick={handleclickgetqr}>Generate QR Code</button>
             </div>
           </div>

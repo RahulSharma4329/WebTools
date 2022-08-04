@@ -21,3 +21,11 @@
     box-shadow: 0px 2px 1rem rgba(0, 0, 0, 0.27);
     border-radius: 0rem 0rem 2rem 2rem;
 }
+
+@media only screen and (max-width: 425px) {
+    .navcontainer{
+        justify-content:center;
+
+    }
+
+}

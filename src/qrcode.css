@@ -85,3 +85,54 @@
     color: white;
     font-weight: 900;
 }
+
+@media only screen and (max-width: 425px) {
+    .qrcontainer{
+        flex-direction: column;
+    }
+    .colu1{
+        width: 100%;
+    }
+    .inputarea{
+        margin: 0;
+        flex-direction: column;
+    }
+    .inputarea img{
+        height: 1rem;
+        margin: 0 .5rem;
+    }
+    .inputarea input{
+        padding: 0.75rem;
+        font-size: small;
+        width: 70%;
+    }
+    .Submitbtn{
+        font-size: x-small;
+        padding: 0.5rem;
+    }
+    .iparea{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        justify-content: center;
+    }
+    .titla p{
+        font-size: x-large;
+        text-align: center;
+    }
+    .titla{
+        margin: 3rem 1rem;
+    }
+    .qrcodedisplay{
+        margin: 1rem 3rem;
+    }
+    .qrcodedisplay img{
+        height: 10rem;
+    }
+    .qrcodedisplay p{
+        font-size: medium;
+    }
+    .Downloadbtn{
+        font-size: x-small;
+    }
+  }
