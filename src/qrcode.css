@@ -105,10 +105,10 @@
 }
 
 
-.qrcontainer, .area{
+.qrcontainer, .area, #root{
     background: rgb(146, 191, 255);  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
-    width: 100%;
+    
 }
 .area{
     z-index: -5;
@@ -281,11 +281,34 @@
     }
     .circles li{
 
-    bottom: -350px;
+        bottom: -350px;
     }
     .area{
         height: 20vh;
     }
+    .circles li:nth-child(10){
+        left: 35%;
+        width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+    }
+    .circles li:nth-child(6){
+        left: 25%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+    }
+    .circles li:nth-child(3){
+        left: 30%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 4s;
+    }
+    .qrcodedisplay{
+        border: 3px solid #5d61c7;
+    }
+
   }
 
 
